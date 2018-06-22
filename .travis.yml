@@ -4,3 +4,10 @@ node_js:
 script:
   - "npm run lint"
   - "npm run test"
+deploy:
+  provider: heroku
+  api_key:
+    secure: ff8fc003-c659-4a56-91fc-b413d5acce0a
+  app: cd-showcase
+  on:
+    repo: newcoder171/ride-my-way-api
