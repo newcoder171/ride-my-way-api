@@ -1,6 +1,6 @@
 module.exports = function (app) {
 
-    const rides = require('../controller/ride.controller.js');
+    const rides = require('../controller/rides.controller.js');
 
     // Create a new Customer
     app.post('/api/v1/rides', rides.create);
