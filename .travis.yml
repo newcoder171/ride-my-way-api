@@ -11,4 +11,3 @@ deploy:
   app: cd-showcase
   on:
     repo: newcoder171/ride-my-way-api
-    branch: develop
