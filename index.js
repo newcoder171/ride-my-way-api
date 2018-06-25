@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const app = express();
 app.use(bodyParser.json())
 
-require('./app/routes/rides.routes.js')(app);
+require('./route/rides.routes.js')(app);
 
 // Create a Server
 const port = 8081;
